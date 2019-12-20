@@ -41,13 +41,13 @@ Wire Wire Line
 	5400 2900 5400 2950
 $Comp
 L Device:Opamp_Quad_Generic U1
-U 4 1 5DF998DF
+U 3 1 5DF998DF
 P 5700 2800
 F 0 "U1" H 5700 2433 50  0000 C CNN
 F 1 "Opamp_Quad_Generic" H 5700 2524 50  0000 C CNN
 F 2 "Housings_SSOP:SSOP-14_5.3x6.2mm_Pitch0.65mm" H 5700 2800 50  0001 C CNN
 F 3 "~" H 5700 2800 50  0001 C CNN
-	4    5700 2800
+	3    5700 2800
 	1    0    0    1   
 $EndComp
 $Comp
@@ -232,13 +232,13 @@ Connection ~ 7650 1400
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5DFE92B8
-P 7200 1400
-F 0 "#FLG0102" H 7200 1475 50  0001 C CNN
-F 1 "PWR_FLAG" V 7200 1528 50  0000 L CNN
-F 2 "" H 7200 1400 50  0001 C CNN
-F 3 "~" H 7200 1400 50  0001 C CNN
-	1    7200 1400
-	0    -1   1    0   
+P 7650 1400
+F 0 "#FLG0102" H 7650 1475 50  0001 C CNN
+F 1 "PWR_FLAG" V 7650 1528 50  0000 L CNN
+F 2 "" H 7650 1400 50  0001 C CNN
+F 3 "~" H 7650 1400 50  0001 C CNN
+	1    7650 1400
+	0    1    1    0   
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG0101
@@ -346,13 +346,13 @@ Wire Wire Line
 	7900 3350 7900 3650
 $Comp
 L Device:Opamp_Quad_Generic U1
-U 3 1 5DFD4347
+U 4 1 5DFD4347
 P 8200 3250
 F 0 "U1" H 8200 2883 50  0000 C CNN
 F 1 "Opamp_Quad_Generic" H 8200 2974 50  0000 C CNN
 F 2 "Housings_SSOP:SSOP-14_5.3x6.2mm_Pitch0.65mm" H 8200 3250 50  0001 C CNN
 F 3 "~" H 8200 3250 50  0001 C CNN
-	3    8200 3250
+	4    8200 3250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -406,16 +406,4 @@ Wire Wire Line
 Wire Wire Line
 	7650 3050 7650 3150
 Connection ~ 8550 3250
-Connection ~ 7200 1400
-$Comp
-L Connector_Generic:Conn_01x01 J8
-U 1 1 5DFDAD8F
-P 7850 1400
-F 0 "J8" H 7930 1442 50  0000 L CNN
-F 1 "Conn_01x01" H 7930 1351 50  0000 L CNN
-F 2 "Connectors:1pin" H 7850 1400 50  0001 C CNN
-F 3 "~" H 7850 1400 50  0001 C CNN
-	1    7850 1400
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
