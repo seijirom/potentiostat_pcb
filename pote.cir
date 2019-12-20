@@ -1,0 +1,10 @@
+.title KiCad schematic
+R1 Net-_J3-Pad1_ Net-_J5-Pad1_ 1k
+U1 Net-_J5-Pad1_ Net-_J3-Pad1_ Net-_J4-Pad1_ Opamp_Quad_Generic
+U2 VCC Net-_J1-Pad1_ Net-_U2-Pad6_ Net-_J2-Pad1_ Net-_U2-Pad6_ Net-_U2-Pad6_ Net-_J2-Pad1_ GNDA Opamp_Quad_Generic
+J2 Net-_J2-Pad1_ Conn_01x01
+J1 Net-_J1-Pad1_ Conn_01x01
+J4 Net-_J4-Pad1_ Conn_01x01
+J3 Net-_J3-Pad1_ Conn_01x01
+J5 Net-_J5-Pad1_ Conn_01x01
+.end
