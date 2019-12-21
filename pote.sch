@@ -35,11 +35,7 @@ Wire Wire Line
 	6250 3200 6250 3700
 Wire Wire Line
 	6250 3700 6050 3700
-Wire Wire Line
-	6250 3700 6500 3700
 Connection ~ 6250 3700
-Wire Wire Line
-	5450 3800 5450 3850
 $Comp
 L Device:Opamp_Quad_Generic U1
 U 4 1 5DF998DF
@@ -64,8 +60,6 @@ F 3 "~" H 2600 2650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2850 3600 3150 3600
-Wire Wire Line
-	5100 3600 5450 3600
 Connection ~ 5450 3600
 Wire Wire Line
 	2900 2750 3150 2750
@@ -87,8 +81,6 @@ Wire Wire Line
 	2150 2650 2150 3500
 Wire Wire Line
 	2250 3700 2150 3700
-Wire Wire Line
-	2150 3700 2150 3850
 $Comp
 L Device:Opamp_Quad_Generic U1
 U 2 1 5DFA1691
@@ -100,54 +92,6 @@ F 3 "~" H 2550 3600 50  0001 C CNN
 	2    2550 3600
 	1    0    0    1   
 $EndComp
-Wire Wire Line
-	3150 3600 3650 3600
-$Comp
-L Connector_Generic:Conn_01x01 J2
-U 1 1 5DFD9489
-P 3850 3600
-F 0 "J2" H 3930 3642 50  0000 L CNN
-F 1 "Conn_01x01" H 3930 3551 50  0000 L CNN
-F 2 "Connectors:1pin" H 3850 3600 50  0001 C CNN
-F 3 "~" H 3850 3600 50  0001 C CNN
-	1    3850 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J1
-U 1 1 5DFDB484
-P 2150 4050
-F 0 "J1" H 2230 4092 50  0000 L CNN
-F 1 "Conn_01x01" H 2230 4001 50  0000 L CNN
-F 2 "Connectors:1pin" H 2150 4050 50  0001 C CNN
-F 3 "~" H 2150 4050 50  0001 C CNN
-	1    2150 4050
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J3
-U 1 1 5DFDCB09
-P 4900 3600
-F 0 "J3" H 4980 3642 50  0000 L CNN
-F 1 "Conn_01x01" H 4980 3551 50  0000 L CNN
-F 2 "Connectors:1pin" H 4900 3600 50  0001 C CNN
-F 3 "~" H 4900 3600 50  0001 C CNN
-	1    4900 3600
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J5
-U 1 1 5DFD86C7
-P 6700 3700
-F 0 "J5" H 6780 3742 50  0000 L CNN
-F 1 "Conn_01x01" H 6780 3651 50  0000 L CNN
-F 2 "Connectors:1pin" H 6700 3700 50  0001 C CNN
-F 3 "~" H 6700 3700 50  0001 C CNN
-	1    6700 3700
-	1    0    0    -1  
-$EndComp
-NoConn ~ 5650 3700
-NoConn ~ 5050 2700
 $Comp
 L Device:R R3
 U 1 1 5DFF1B31
@@ -189,17 +133,6 @@ F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5680 270
 F 3 "~" H 5750 2700 50  0001 C CNN
 	1    5750 2700
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J4
-U 1 1 5DFDC65A
-P 5450 4050
-F 0 "J4" H 5530 4092 50  0000 L CNN
-F 1 "Conn_01x01" H 5530 4001 50  0000 L CNN
-F 2 "Connectors:1pin" H 5450 4050 50  0001 C CNN
-F 3 "~" H 5450 4050 50  0001 C CNN
-	1    5450 4050
-	0    1    1    0   
 $EndComp
 Wire Wire Line
 	8600 4550 8600 4150
@@ -313,30 +246,6 @@ F 3 "~" H 7300 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7250 4050 7300 4050
-$Comp
-L Connector_Generic:Conn_01x01 J7
-U 1 1 5DFE7354
-P 8800 4150
-F 0 "J7" H 8880 4192 50  0000 L CNN
-F 1 "Conn_01x01" H 8880 4101 50  0000 L CNN
-F 2 "Connectors:1pin" H 8800 4150 50  0001 C CNN
-F 3 "~" H 8800 4150 50  0001 C CNN
-	1    8800 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J6
-U 1 1 5DFE6308
-P 7050 4050
-F 0 "J6" H 7130 4092 50  0000 L CNN
-F 1 "Conn_01x01" H 7130 4001 50  0000 L CNN
-F 2 "Connectors:1pin" H 7050 4050 50  0001 C CNN
-F 3 "~" H 7050 4050 50  0001 C CNN
-	1    7050 4050
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
 	7700 4050 7700 4250
 Connection ~ 7700 4050
 Wire Wire Line
@@ -406,17 +315,155 @@ Wire Wire Line
 	7700 3550 7700 3650
 Wire Wire Line
 	7700 3950 7700 4050
-Connection ~ 8600 4150
 Connection ~ 7250 2300
 $Comp
-L Connector_Generic:Conn_01x01 J8
-U 1 1 5DFDAD8F
-P 7900 2300
-F 0 "J8" H 7980 2342 50  0000 L CNN
-F 1 "Conn_01x01" H 7980 2251 50  0000 L CNN
-F 2 "Connectors:1pin" H 7900 2300 50  0001 C CNN
-F 3 "~" H 7900 2300 50  0001 C CNN
-	1    7900 2300
+L Connector_Generic:Conn_01x03 J1
+U 1 1 5DFDDBC9
+P 4400 4050
+F 0 "J1" V 4270 4230 50  0000 L CNN
+F 1 "Conn_01x03" V 4363 4230 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4400 4050 50  0001 C CNN
+F 3 "~" H 4400 4050 50  0001 C CNN
+	1    4400 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4500 3600 4500 3850
+Wire Wire Line
+	4500 3600 5450 3600
+Wire Wire Line
+	3150 3600 4300 3600
+Wire Wire Line
+	4300 3600 4300 3850
+$Comp
+L Connector_Generic:Conn_01x05 J3
+U 1 1 5DFE0B52
+P 5650 4350
+F 0 "J3" V 5520 4630 50  0000 L CNN
+F 1 "Conn_01x03" V 5613 4630 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 5650 4350 50  0001 C CNN
+F 3 "~" H 5650 4350 50  0001 C CNN
+	1    5650 4350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5450 3800 5450 4150
+Wire Wire Line
+	5650 4150 5650 4000
+Wire Wire Line
+	5650 4000 6250 4000
+Wire Wire Line
+	6250 4000 6250 3700
+Wire Wire Line
+	5850 4050 5850 4150
+Wire Wire Line
+	5850 4050 7300 4050
+$Comp
+L Connector_Generic:Conn_01x07 J2
+U 1 1 5DFE5620
+P 4400 6000
+F 0 "J2" V 4270 6380 50  0000 L CNN
+F 1 "Conn_01x03" V 4363 6380 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 4400 6000 50  0001 C CNN
+F 3 "~" H 4400 6000 50  0001 C CNN
+	1    4400 6000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4700 5400 8600 5400
+Wire Wire Line
+	8600 5400 8600 4550
+Connection ~ 8600 4550
+Wire Wire Line
+	4700 5400 4700 5800
+Wire Wire Line
+	2150 4750 4500 4750
+Wire Wire Line
+	4500 4750 4500 5800
+Wire Wire Line
+	2150 3700 2150 4750
+$Comp
+L power:VCC #PWR0105
+U 1 1 5DFE945D
+P 4300 5650
+F 0 "#PWR0105" H 4300 5500 50  0001 C CNN
+F 1 "VCC" H 4317 5823 50  0000 C CNN
+F 2 "" H 4300 5650 50  0001 C CNN
+F 3 "" H 4300 5650 50  0001 C CNN
+	1    4300 5650
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4300 5650 4300 5800
+Wire Wire Line
+	4100 5800 4100 5750
+Wire Wire Line
+	4100 5750 3850 5750
+Wire Wire Line
+	3850 5750 3850 5850
+$Comp
+L power:GNDA #PWR0106
+U 1 1 5DFEC410
+P 3850 5850
+F 0 "#PWR0106" H 3850 5600 50  0001 C CNN
+F 1 "GNDA" H 3855 5677 50  0000 C CNN
+F 2 "" H 3850 5850 50  0001 C CNN
+F 3 "" H 3850 5850 50  0001 C CNN
+	1    3850 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 5750 4200 5750
+Wire Wire Line
+	4200 5750 4200 5800
+Connection ~ 4100 5750
+Wire Wire Line
+	4200 5750 4400 5750
+Wire Wire Line
+	4600 5750 4600 5800
+Connection ~ 4200 5750
+Wire Wire Line
+	4400 5800 4400 5750
+Connection ~ 4400 5750
+Wire Wire Line
+	4400 5750 4600 5750
+$Comp
+L power:GNDA #PWR?
+U 1 1 5E00AEA2
+P 4100 3850
+F 0 "#PWR?" H 4100 3600 50  0001 C CNN
+F 1 "GNDA" H 4105 3677 50  0000 C CNN
+F 2 "" H 4100 3850 50  0001 C CNN
+F 3 "" H 4100 3850 50  0001 C CNN
+	1    4100 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 3850 4100 3750
+Wire Wire Line
+	4100 3750 4400 3750
+Wire Wire Line
+	4400 3750 4400 3850
+$Comp
+L power:GNDA #PWR?
+U 1 1 5E00CE59
+P 5200 4200
+F 0 "#PWR?" H 5200 3950 50  0001 C CNN
+F 1 "GNDA" H 5205 4027 50  0000 C CNN
+F 2 "" H 5200 4200 50  0001 C CNN
+F 3 "" H 5200 4200 50  0001 C CNN
+	1    5200 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 4200 5200 4100
+Wire Wire Line
+	5200 4100 5550 4100
+Wire Wire Line
+	5750 4100 5750 4150
+Wire Wire Line
+	5550 4150 5550 4100
+Connection ~ 5550 4100
+Wire Wire Line
+	5550 4100 5750 4100
 $EndSCHEMATC
